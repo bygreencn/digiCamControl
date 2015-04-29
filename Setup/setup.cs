@@ -87,7 +87,7 @@ namespace Setup
 
             
             project.SourceBaseDir =
-                Path.GetFullPath(System.IO.Path.Combine(Environment.CurrentDirectory, @"..\CameraControl\bin\Debug\"));
+                Path.GetFullPath(System.IO.Path.Combine(Environment.CurrentDirectory, @"..\..\..\CameraControl\bin\Debug\"));
 
             project.ResolveWildCards();
 

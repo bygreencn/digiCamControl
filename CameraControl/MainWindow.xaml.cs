@@ -241,8 +241,8 @@ namespace CameraControl
             ServiceProvider.DeviceManager.CameraConnected += DeviceManager_CameraConnected;
             ServiceProvider.DeviceManager.CameraDisconnected += DeviceManager_CameraDisconnected;
             SetLayout(ServiceProvider.Settings.SelectedLayout);
-            var thread = new Thread(CheckForUpdate);
-            thread.Start();
+            //var thread = new Thread(CheckForUpdate);
+            //thread.Start();
             if (ServiceProvider.Settings.StartMinimized)
                 this.WindowState = WindowState.Minimized;
             SortCameras();
